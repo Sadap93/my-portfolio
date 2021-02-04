@@ -54,6 +54,12 @@ export const About = styled.div`
         h1{
             font-size: 3rem;
         }
+        h2{
+            font-size: 2rem;
+        }
+        p{
+           font-size: 1.1rem;
+        }
         span{
             color: #2D9E4A;
             background: rgba(50,50,50,0.74);

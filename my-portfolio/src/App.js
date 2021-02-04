@@ -31,7 +31,10 @@ function App() {
         satelliteStatusSaturn={satelliteStatusSaturn}
         setSatelliteStatusSaturn={setSatelliteStatusSaturn}
       />
-      <Contact />
+      <Contact 
+        satelliteStatusUranus={satelliteStatusUranus}
+        setSatelliteStatusUranus={setSatelliteStatusUranus}
+      />
     </div>
   );
 };
