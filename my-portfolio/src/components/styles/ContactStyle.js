@@ -25,4 +25,6 @@ a{
             }
         &:hover{
             color:red;
+        }
+}
 `;
