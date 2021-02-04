@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Jupiter from '../../img/jupiter.png';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
-export const SatelliteBtn = styled.h1`
+export const SatelliteBtnJupiter = styled.h1`
     text-align: center;
     font-size: 2rem;
     position: relative;
@@ -34,7 +34,7 @@ export const About = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;
+    min-height: 85vh;
     color: white;
 `;
 
@@ -67,7 +67,7 @@ export const About = styled.div`
                 height: 35vh;
                 margin: 1rem;
                 border-radius: 15%;  
-        box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+                box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
             }
         `;
 

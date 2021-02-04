@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 //Import Images
 import Me from '../img/03_48_bw.jpg';
 //Import Styles
-import { About, AboutMeSection, ImageMe, SatelliteBtn } from './styles/AboutMeStyles';
+import { About, AboutMeSection, ImageMe, SatelliteBtnJupiter } from './styles/AboutMeStyles';
 //Import FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSatellite } from "@fortawesome/free-solid-svg-icons";
@@ -10,18 +10,17 @@ import { faSatellite } from "@fortawesome/free-solid-svg-icons";
 import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 
 
-const AboutMe = () => {
-    const [satelliteStatus, setSatelliteStatus] = useState(false);
+const AboutMe = ({satelliteStatusJupiter,  setSatelliteStatusJupiter}) => {
     return (
         <>
-            <SatelliteBtn >
-                <span onClick={() => setSatelliteStatus(!satelliteStatus)}>
+            <SatelliteBtnJupiter>
+                <span onClick={() =>  setSatelliteStatusJupiter(!satelliteStatusJupiter)}>
                     Click me: ..<FontAwesomeIcon className="satellite" icon={faSatellite} />
                 </span>
-            </SatelliteBtn>
+            </SatelliteBtnJupiter>
             <About>
                 <AnimatePresence>
-                    {satelliteStatus && (
+                    {satelliteStatusJupiter && (
                         <AnimateSharedLayout>
                             <AboutMeSection
                          

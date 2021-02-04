@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 //Import Global Style and font styles
 import GlobalStyle from "./components/styles/GlobalStyle";
 import GlobalFonts from "./fonts/fonts";
@@ -12,18 +12,25 @@ import Contact from './components/Contact';
 function App() {
 
   //State
-  
+  const [satelliteStatusJupiter, setSatelliteStatusJupiter] = useState(false);
+  const [satelliteStatusSaturn, setSatelliteStatusSaturn] = useState(false);
+  const [satelliteStatusUranus, setSatelliteStatusUranus] = useState(false);
+
   return (
-    
+
     <div className="App">
       <GlobalFonts />
       <GlobalStyle />
       <Nav />
- 
-      <AboutMe 
 
+      <AboutMe
+        satelliteStatusJupiter={satelliteStatusJupiter}
+        setSatelliteStatusJupiter={setSatelliteStatusJupiter}
       />
-      <MyWorks />
+      <MyWorks
+        satelliteStatusSaturn={satelliteStatusSaturn}
+        setSatelliteStatusSaturn={setSatelliteStatusSaturn}
+      />
       <Contact />
     </div>
   );
