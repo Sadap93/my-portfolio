@@ -22,8 +22,15 @@ export const MyWorksSection = styled(AboutMeSection)`
         text-decoration: none;
         color: inherit;
         transition: all 0.3s ease;
+        font-size: 1.5rem;
+        animation:shadow 1.2s linear infinite;
+            @keyframes shadow{
+                0%{text-shadow:2px 2px 2px red }
+                50%{text-shadow:3px 5px 6px red }
+                100%{text-shadow:2px 2px 2px red }
+            }
         &:hover{
-            color:#1E7349;
+            color:red;
             /* text-shadow:  6px 4px 7px rgba(140, 150, 150, 0.7); */
         }
     }
