@@ -5,11 +5,11 @@ import { faSatellite } from "@fortawesome/free-solid-svg-icons";
 //Import frame motion
 import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 //Import Styles
-import { MyWorks, SatelliteBtnSaturn, MyWorksSection } from './styles/MyWorksStyle';
+import { MyWorks, SatelliteBtnSaturn, MyWorksSection,Container } from './styles/MyWorksStyle';
 
 const MyWork = ({ satelliteStatusSaturn, setSatelliteStatusSaturn }) => {
     return (
-        <div id="myworks">
+        <Container id="myworks">
             <SatelliteBtnSaturn>
                 <span onClick={() => setSatelliteStatusSaturn(!satelliteStatusSaturn)}>
                     Click me: ..<FontAwesomeIcon className="satellite" icon={faSatellite} />
@@ -36,7 +36,7 @@ const MyWork = ({ satelliteStatusSaturn, setSatelliteStatusSaturn }) => {
                     )}
                 </AnimatePresence>
             </MyWorks>
-        </div>
+        </Container>
     );
 };
 

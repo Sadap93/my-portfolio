@@ -9,7 +9,7 @@ import { SatelliteBtnUranus, ContactSide, ContactSection, Footer } from './style
 
 const Contact = ({ satelliteStatusUranus, setSatelliteStatusUranus }) => {
     return (
-        <div id="contact">
+        <div id="contact"/* style={{height:"100vh"}} */>
             <SatelliteBtnUranus>
                 <span onClick={() => setSatelliteStatusUranus(!satelliteStatusUranus)}>
                     Click me: ..<FontAwesomeIcon className="satellite" icon={faSatellite} />
@@ -35,7 +35,7 @@ const Contact = ({ satelliteStatusUranus, setSatelliteStatusUranus }) => {
                     )}
                 </AnimatePresence>
             </ContactSide>
-                <Footer>Created and designed by Sandor Kovacs in 2021</Footer>
+                
         </div>
     );
 };

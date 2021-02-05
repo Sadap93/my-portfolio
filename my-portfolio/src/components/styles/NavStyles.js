@@ -4,7 +4,7 @@ export const StyledNav = styled.div`
     min-height: 10vh;
     display: flex;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem 3rem;
     background: #282828;

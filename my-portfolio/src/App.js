@@ -7,6 +7,7 @@ import Nav from './components/Nav';
 import AboutMe from './components/AboutMe';
 import MyWorks from './components/MyWorks';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         satelliteStatusUranus={satelliteStatusUranus}
         setSatelliteStatusUranus={setSatelliteStatusUranus}
       />
+      <Footer />
     </div>
   );
 };

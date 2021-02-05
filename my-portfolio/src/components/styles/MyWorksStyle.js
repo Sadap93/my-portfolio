@@ -5,14 +5,17 @@ import Saturn from '../../img/saturn.png';
 import {About, SatelliteBtnJupiter, AboutMeSection} from './AboutMeStyles';
 
 export const SatelliteBtnSaturn = styled(SatelliteBtnJupiter)`
-  top: 25rem;
-  right: 18rem;
+ top:5rem;
+ /*  top: 25rem;
+  right: 18rem; */
     
 `;
 
 export const MyWorks = styled(About)`
     background-image: url(${Saturn});
     background-size: 130vh;
+    background-repeat: no-repeat;
+    background-position: center;
 `;
 
 export const MyWorksSection = styled(AboutMeSection)`
@@ -33,4 +36,12 @@ export const MyWorksSection = styled(AboutMeSection)`
             /* text-shadow:  6px 4px 7px rgba(140, 150, 150, 0.7); */
         }
     }
+`;
+
+
+export const Container = styled.div`
+    height:100vh;
+    margin-right:auto;
+    margin-left:auto;
+
 `;

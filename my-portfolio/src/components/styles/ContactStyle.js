@@ -4,10 +4,18 @@ import Uranus from '../../img/uranus.png';
 //Import styled component
 import { About, SatelliteBtnJupiter, AboutMeSection } from './AboutMeStyles';
 
-export const SatelliteBtnUranus = styled(SatelliteBtnJupiter)``;
+export const SatelliteBtnUranus = styled(SatelliteBtnJupiter)`
+ @media (max-width: 360px){
+            font-size: 1.3rem;
+            padding: 5px 0;
+        }
+`;
 
 export const ContactSide = styled(About)`
     background-image: url(${Uranus});
+    background-size:80vh;
+    background-repeat: no-repeat;
+    background-position: center;
 `;
 
 export const ContactSection = styled(AboutMeSection)`
@@ -27,15 +35,4 @@ a{
             color:red;
         }
 }
-`;
-
-export const Footer = styled.div`
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 2.6vh;
-    background: #282828;
-    color: #fefffc;
-    font-family: 'Alien';
-    margin-top: 1rem;
 `;
