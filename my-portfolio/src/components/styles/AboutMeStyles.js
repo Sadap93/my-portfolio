@@ -35,24 +35,25 @@ export const Container = styled.div`
         background-size:100%;
         height:910px;
     }
-    @media (max-width: 800px){
+    /* @media (max-width: 800px){
         background-size:110%;
-    }
-    @media (max-width: 700px){
-        background-size:130%;
-    }
-    @media (max-width: 600px){
-        background-size:150%;
+    } */
+    /* @media (max-width: 700px){
+        background-size:115%;
+    } */
+    @media (max-width: 650px){
+        background-size:120%;
     }
     @media (max-width: 500px){
-        background-size:170%;
+        background-size:140%;
     }
     @media (max-width: 400px){
-        background-size:190%;
+        background-size:165%;
         height:700px;
     }
     @media (max-width: 320px){
-        background-size:210%;
+        background-size:170%;
+
         
     }
 
