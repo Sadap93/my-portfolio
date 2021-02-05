@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/my-portfolio/static/js/main.743f7e55.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.743f7e55.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.cf5d9cf6.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.cf5d9cf6.js.map",
+    "static/js/2.158e0112.chunk.js": "/my-portfolio/static/js/2.158e0112.chunk.js",
+    "static/js/2.158e0112.chunk.js.map": "/my-portfolio/static/js/2.158e0112.chunk.js.map",
+    "static/js/3.c2998701.chunk.js": "/my-portfolio/static/js/3.c2998701.chunk.js",
+    "static/js/3.c2998701.chunk.js.map": "/my-portfolio/static/js/3.c2998701.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/js/2.158e0112.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.158e0112.chunk.js.LICENSE.txt",
+    "static/media/03_48_bw.eee1ca94.jpg": "/my-portfolio/static/media/03_48_bw.eee1ca94.jpg",
+    "static/media/AlienLeagueBold-1WRj.0d59cafe.woff": "/my-portfolio/static/media/AlienLeagueBold-1WRj.0d59cafe.woff",
+    "static/media/AlienLeagueBold-1WRj.3431cd8f.woff2": "/my-portfolio/static/media/AlienLeagueBold-1WRj.3431cd8f.woff2",
+    "static/media/Stellar-Regular.a0eedb4c.woff": "/my-portfolio/static/media/Stellar-Regular.a0eedb4c.woff",
+    "static/media/Stellar-Regular.cd81649f.woff2": "/my-portfolio/static/media/Stellar-Regular.cd81649f.woff2",
+    "static/media/jupiter.59fa0dfc.png": "/my-portfolio/static/media/jupiter.59fa0dfc.png",
+    "static/media/saturn.db8c2c11.png": "/my-portfolio/static/media/saturn.db8c2c11.png",
+    "static/media/uranus.c1670309.png": "/my-portfolio/static/media/uranus.c1670309.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf5d9cf6.js",
+    "static/js/2.158e0112.chunk.js",
+    "static/js/main.743f7e55.chunk.js"
+  ]
+}
