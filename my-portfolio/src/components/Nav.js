@@ -1,20 +1,60 @@
 import React from "react";
 //Import Styles
-import {StyledNav} from './styles/NavStyles';
+import { StyledNav } from './styles/NavStyles';
+//Scroll
+import { Link } from "react-scroll"
 
 const Nav = () => {
     return (
         <StyledNav>
-            <h1>Home</h1>
+            <h1>
+                <Link
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-1100}
+                    duration={500}
+                >
+                    Home
+                </Link>
+            </h1>
             <ul>
                 <li>
-                    About Me
+                    <Link
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-1100}
+                        duration={500}
+                    >
+                        About Me
+                    </Link>
                 </li>
                 <li>
-                    My Works
+                    <Link
+                        activeClass="active"
+                        to="myworks"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        My Works
+                    </Link>
                 </li>
                 <li>
-                    Contact
+                    <Link
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        Contact
+                    </Link>
                 </li>
             </ul>
         </StyledNav>

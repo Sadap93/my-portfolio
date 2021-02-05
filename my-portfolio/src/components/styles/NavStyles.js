@@ -36,4 +36,15 @@ export const StyledNav = styled.div`
       } 
       }
     }
+    @media (max-width: 600px){
+        flex-direction: column;
+        padding: 0.3rem 0rem;
+        
+        h1{
+            font-size: 1.3rem;
+        }
+        ul li{
+            font-size: 1rem;
+        }
+    }
 `;

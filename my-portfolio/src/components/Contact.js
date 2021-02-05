@@ -5,11 +5,11 @@ import { faSatellite } from "@fortawesome/free-solid-svg-icons";
 //Import frame motion
 import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 //Import Styles
-import { SatelliteBtnUranus, ContactSide, ContactSection } from './styles/ContactStyle';
+import { SatelliteBtnUranus, ContactSide, ContactSection, Footer } from './styles/ContactStyle';
 
 const Contact = ({ satelliteStatusUranus, setSatelliteStatusUranus }) => {
     return (
-        <>
+        <div id="contact">
             <SatelliteBtnUranus>
                 <span onClick={() => setSatelliteStatusUranus(!satelliteStatusUranus)}>
                     Click me: ..<FontAwesomeIcon className="satellite" icon={faSatellite} />
@@ -35,7 +35,8 @@ const Contact = ({ satelliteStatusUranus, setSatelliteStatusUranus }) => {
                     )}
                 </AnimatePresence>
             </ContactSide>
-        </>
+                <Footer>Created and designed by Sandor Kovacs in 2021</Footer>
+        </div>
     );
 };
 

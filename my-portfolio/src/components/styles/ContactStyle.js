@@ -2,7 +2,7 @@ import styled from "styled-components";
 //Import image
 import Uranus from '../../img/uranus.png';
 //Import styled component
-import {About, SatelliteBtnJupiter, AboutMeSection} from './AboutMeStyles';
+import { About, SatelliteBtnJupiter, AboutMeSection } from './AboutMeStyles';
 
 export const SatelliteBtnUranus = styled(SatelliteBtnJupiter)``;
 
@@ -27,4 +27,15 @@ a{
             color:red;
         }
 }
+`;
+
+export const Footer = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2.6vh;
+    background: #282828;
+    color: #fefffc;
+    font-family: 'Alien';
+    margin-top: 1rem;
 `;

@@ -64,7 +64,20 @@ export const About = styled.div`
             color: #2D9E4A;
             background: rgba(50,50,50,0.74);
             border-radius: 10px;
-         }
+        }
+        @media (max-width: 600px){
+            width: 85%;
+            h1{
+                font-size: 1.7rem;
+            }
+            h2{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
     `;
 
 
@@ -76,4 +89,3 @@ export const About = styled.div`
                 box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
             }
         `;
-

@@ -9,7 +9,7 @@ import { MyWorks, SatelliteBtnSaturn, MyWorksSection } from './styles/MyWorksSty
 
 const MyWork = ({ satelliteStatusSaturn, setSatelliteStatusSaturn }) => {
     return (
-        <>
+        <div id="myworks">
             <SatelliteBtnSaturn>
                 <span onClick={() => setSatelliteStatusSaturn(!satelliteStatusSaturn)}>
                     Click me: ..<FontAwesomeIcon className="satellite" icon={faSatellite} />
@@ -36,7 +36,7 @@ const MyWork = ({ satelliteStatusSaturn, setSatelliteStatusSaturn }) => {
                     )}
                 </AnimatePresence>
             </MyWorks>
-        </>
+        </div>
     );
 };
 

@@ -12,8 +12,8 @@ import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 
 const AboutMe = ({satelliteStatusJupiter,  setSatelliteStatusJupiter}) => {
     return (
-        <>
-            <SatelliteBtnJupiter>
+        <div style={{height: "100vh"}}>
+            <SatelliteBtnJupiter id="about">
                 <span onClick={() =>  setSatelliteStatusJupiter(!satelliteStatusJupiter)}>
                     Click me: ..<FontAwesomeIcon className="satellite" icon={faSatellite} />
                 </span>
@@ -42,7 +42,7 @@ const AboutMe = ({satelliteStatusJupiter,  setSatelliteStatusJupiter}) => {
                     )}
                 </AnimatePresence>
             </About>
-        </>
+        </div>
     );
 };
 
