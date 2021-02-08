@@ -5,7 +5,7 @@ import { faSatellite } from "@fortawesome/free-solid-svg-icons";
 //Import frame motion
 import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 //Import Styles
-import { SatelliteBtnUranus, ContactSide, ContactSection, Footer } from './styles/ContactStyle';
+import { SatelliteBtnUranus, ContactSide, ContactSection } from './styles/ContactStyle';
 
 const Contact = ({ satelliteStatusUranus, setSatelliteStatusUranus }) => {
     return (
@@ -28,8 +28,8 @@ const Contact = ({ satelliteStatusUranus, setSatelliteStatusUranus }) => {
                                 <p>...</p>
                                 <p><a href="mailto: sadap93@gmail.com">Email: sadap93@gmail.com</a></p>
                                 <p><a href="tel: +36706349269">Mobile: +36706349269</a></p>
-                                <p><a href="https://github.com/Sadap93?tab=repositories" target="blank">GitHub</a></p>
-                                <p><a href="https://www.linkedin.com/in/sandor-kovacs93/" target="blank">LinkedIn</a></p>
+                                <p><a href="https://github.com/Sadap93?tab=repositories" target="blank" rel="noreferrer">GitHub</a></p>
+                                <p><a href="https://www.linkedin.com/in/sandor-kovacs93/" target="blank" rel="noreferrer">LinkedIn</a></p>
                             </ContactSection>
                         </AnimateSharedLayout>
                     )}

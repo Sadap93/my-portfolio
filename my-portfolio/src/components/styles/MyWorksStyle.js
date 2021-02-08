@@ -36,6 +36,10 @@ export const MyWorksSection = styled(AboutMeSection)`
             /* text-shadow:  6px 4px 7px rgba(140, 150, 150, 0.7); */
         }
     }
+    @media (max-width: 600px){
+                width: auto;
+                padding:1rem;
+    }
 `;
 
 

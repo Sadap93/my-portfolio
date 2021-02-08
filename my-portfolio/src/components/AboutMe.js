@@ -2,7 +2,7 @@ import React from 'react';
 //Import Images
 import Me from '../img/03_48_bw.jpg';
 //Import Styles
-import { About, AboutMeSection, ImageMe, SatelliteBtnJupiter ,Container} from './styles/AboutMeStyles';
+import { About, AboutMeSection, ImageMe, SatelliteBtnJupiter , ContainerJupiter} from './styles/AboutMeStyles';
 //Import FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSatellite } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +12,7 @@ import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 
 const AboutMe = ({satelliteStatusJupiter,  setSatelliteStatusJupiter}) => {
     return (
-        <Container>
+        <ContainerJupiter>
             <SatelliteBtnJupiter id="about">
                 <span onClick={() =>  setSatelliteStatusJupiter(!satelliteStatusJupiter)}>
                     Click me: ..<FontAwesomeIcon className="satellite" icon={faSatellite} />
@@ -44,7 +44,7 @@ const AboutMe = ({satelliteStatusJupiter,  setSatelliteStatusJupiter}) => {
                     )}
                 </AnimatePresence>
             </About>
-        </Container>
+        </ContainerJupiter>
     );
 };
 

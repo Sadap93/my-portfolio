@@ -28,9 +28,9 @@ const MyWork = ({ satelliteStatusSaturn, setSatelliteStatusSaturn }) => {
                             >
                                 <h1>My Works</h1>
                                 <p>...</p>
-                                <p><a href="https://github.com/Sadap93/my-portfolio" target="_blank">This page</a></p>
-                                <p><a href="https://github.com/Sadap93/musicplayer" target="_blank">Media Player</a></p>
-                                <p><a href="https://github.com/Sadap93/react-todo" target="_blank">Todo List</a></p>
+                                <p><a href="https://github.com/Sadap93/my-portfolio" target="_blank" rel="noreferrer">This page</a></p>
+                                <p><a href="https://github.com/Sadap93/musicplayer" target="_blank" rel="noreferrer">Media Player</a></p>
+                                <p><a href="https://github.com/Sadap93/react-todo" target="_blank" rel="noreferrer">Todo List</a></p>
                             </MyWorksSection>
                         </AnimateSharedLayout>
                     )}
