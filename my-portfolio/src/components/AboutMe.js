@@ -55,7 +55,7 @@ const AboutMe = ({ satelliteStatusAboutMe, setSatelliteStatusAboutMe, isPlaying 
                                     <p>If you are interested in more information about me, please click on the arrows.</p>
                                 </AboutMeSectionContainer>
                             </AnimateSharedLayout>
-                            
+
                             <AnimateSharedLayout >
                                 <AboutMeSectionContainer
                                     initial={{ opacity: 0 }}
@@ -66,7 +66,7 @@ const AboutMe = ({ satelliteStatusAboutMe, setSatelliteStatusAboutMe, isPlaying 
                                         <p>
                                             My first meet with programming was in a university course.
                                             We made some geographic projects and demographic maps.
-                                            I liked it but I had no brave for changed my studies.
+                                            I liked it but I had no brave to change my studies.
                                             I got master's degree in earth science at University of Szeged in 2019.
                                             I worked as a geologist for a year but I didn't find my happiness in this field. So, I realized what I actually want.
                                     I want to be a programmer. I enrolled in <strong> CodeBerry Programming School</strong> and I got the

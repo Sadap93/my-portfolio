@@ -97,12 +97,12 @@ export const ContactSatellite = styled.h1`
       animation:shadow 1.2s linear infinite;
         @keyframes shadow{  
             0%{text-shadow:2px 2px 2px red }
-            50%{text-shadow:13px 8px 6px red }
+            50%{text-shadow:10px 8px 6px red }
             100%{text-shadow:2px 2px 2px red }
         }
       &:hover{
         transform: scale(1.15); 
-        color: red;
+        /* color: red; */
       }
 
         svg{
