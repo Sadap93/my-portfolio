@@ -55,6 +55,26 @@ const AboutMe = ({ satelliteStatusAboutMe, setSatelliteStatusAboutMe, isPlaying 
                                     <p>If you are interested in more information about me, please click on the arrows.</p>
                                 </AboutMeSectionContainer>
                             </AnimateSharedLayout>
+                            
+                            <AnimateSharedLayout >
+                                <AboutMeSectionContainer
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 0 }}>
+                                    <div className="intro-wrapper">
+                                        <h1>Introduction</h1>
+                                        <p>
+                                            My first meet with programming was in a university course.
+                                            We made some geographic projects and demographic maps.
+                                            I liked it but I had no brave for changed my studies.
+                                            I got master's degree in earth science at University of Szeged in 2019.
+                                            I worked as a geologist for a year but I didn't find my happiness in this field. So, I realized what I actually want.
+                                    I want to be a programmer. I enrolled in <strong> CodeBerry Programming School</strong> and I got the
+                                    basics of html, css and javascript, after this I self-taught React.js from english courses. Please click on the arrow and check my skills.
+                                   </p>
+                                </div>
+                                </AboutMeSectionContainer>
+                            </AnimateSharedLayout>
 
                             <AnimateSharedLayout >
                                 <AboutMeSectionContainer2
@@ -102,25 +122,6 @@ const AboutMe = ({ satelliteStatusAboutMe, setSatelliteStatusAboutMe, isPlaying 
                                 </AboutMeSectionContainer2>
                             </AnimateSharedLayout>
 
-                            <AnimateSharedLayout >
-                                <AboutMeSectionContainer
-                                    initial={{ opacity: 0 }}
-                                    animate={{ opacity: 1 }}
-                                    exit={{ opacity: 0 }}>
-                                    <div className="intro-wrapper">
-                                        <h1>Introduction</h1>
-                                        <p>
-                                            My first meet with programming was in a university course.
-                                            We made some geographic projects and demographic maps.
-                                            I liked it but I had no brave for changed my studies.
-                                            I got master's degree in earth science at University of Szeged in 2019.
-                                            I worked as a geologist for a year but I didn't find my happiness in this field. So, I realized what I actually want.
-                                    I want to be a programmer. I enrolled in <strong> CodeBerry Programming School</strong> and I got the
-                                    basics of html, css and javascript, after this I self-taught React.js from english courses. Please click on the arrow and check my skills.
-                                   </p>
-                                </div>
-                                </AboutMeSectionContainer>
-                            </AnimateSharedLayout>
 
                         </Slider>
 
