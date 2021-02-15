@@ -148,28 +148,21 @@ export const ContainerAboutMe = styled.div`
       margin-bottom: 10px;
       background:rgba(168, 161, 153, 0.6);
       border-radius: 15px;
-      /* box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75); */
+      text-shadow: 2px 2px 2px rgba(100, 100, 100, 1);
       transition: all 0.5s ease;
       cursor: pointer;
-      animation:shadowz 1.3s linear infinite;
-        @keyframes shadowz{  
+      animation: shadowKey 1.3s linear infinite;
+        @keyframes shadowKey{  
             0%{box-shadow: 7px 7px 12px 0px rgba(255, 0, 0, 0.75); }
             50%{box-shadow: 7px 7px 5px 0px rgba(255, 0, 0, 0.75); }
             100%{box-shadow: 7px 7px 12px 0px rgba(255, 0, 0, 0.75); }
         }
       &:hover{
         transform: scale(1.15); 
-        /* color: red; */
       }
-
-        /* svg{
-                animation: satelliteShadow 1.2s linear infinite;
-                @keyframes satelliteShadow{
-                    0%{filter:drop-shadow(2px 2px 2px red)}; 
-                    50%{filter:drop-shadow(13px 8px 6px red)}; 
-                    100%{filter:drop-shadow(2px 2px 2px red)}; 
-                }
-        } */
+        svg{
+            filter:drop-shadow(2px 2px 2px rgba(100, 100, 100, 1));
+        } 
     `;
 
 
@@ -181,7 +174,7 @@ export const ContainerAboutMe = styled.div`
         justify-content: space-around;
         text-align: center;
         background-color: rgba(93, 149, 223, 0.5);
-        text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+    
         border-radius: 15px;
         padding: 25px;
         height: 500px;
@@ -320,7 +313,6 @@ export const ContainerAboutMe = styled.div`
             p, li{
                 font-size: 0.6rem;
             }
-
         }
         @media (max-width: 360px){
             line-height: 0.7rem;
@@ -330,7 +322,6 @@ export const ContainerAboutMe = styled.div`
             p, li{
                 font-size: 0.6rem;
             }
-
         }
       
     `;

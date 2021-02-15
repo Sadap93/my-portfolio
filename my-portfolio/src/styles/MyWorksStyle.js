@@ -97,24 +97,16 @@ transition: 0.5s;
       box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
       transition: all 0.5s ease;
       cursor: pointer;
-      animation:shadow 1.2s linear infinite;
-        @keyframes shadow{  
-            0%{text-shadow:2px 2px 2px red }
-            50%{text-shadow:10px 8px 6px red }
-            100%{text-shadow:2px 2px 2px red }
+      animation: shadowKey 1.3s linear infinite;
+        @keyframes shadowKey{  
+            0%{box-shadow: 7px 7px 12px 0px rgba(255, 0, 0, 0.75); }
+            50%{box-shadow: 7px 7px 5px 0px rgba(255, 0, 0, 0.75); }
+            100%{box-shadow: 7px 7px 12px 0px rgba(255, 0, 0, 0.75); }
         }
       &:hover{
-        transform: scale(1.15); 
-        /* color: red; */
       }
-
         svg{
-                animation: satelliteShadow 1.2s linear infinite;
-                @keyframes satelliteShadow{
-                    0%{filter:drop-shadow(2px 2px 2px red)}; 
-                    50%{filter:drop-shadow(13px 8px 6px red)}; 
-                    100%{filter:drop-shadow(2px 2px 2px red)}; 
-                }
+            filter:drop-shadow(2px 2px 2px rgba(100, 100, 100, 1));
         }
   `;
 
