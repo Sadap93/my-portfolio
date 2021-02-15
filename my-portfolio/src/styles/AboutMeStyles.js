@@ -151,11 +151,11 @@ export const ContainerAboutMe = styled.div`
       /* box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75); */
       transition: all 0.5s ease;
       cursor: pointer;
-      animation:shadow 1.2s linear infinite;
-        @keyframes shadow{  
-            0%{box-shadow: 7px 7px 16px 0px rgba(255, 0, 0, 0.75); }
+      animation:shadowz 1.3s linear infinite;
+        @keyframes shadowz{  
+            0%{box-shadow: 7px 7px 12px 0px rgba(255, 0, 0, 0.75); }
             50%{box-shadow: 7px 7px 5px 0px rgba(255, 0, 0, 0.75); }
-            100%{box-shadow: 7px 7px 16px 0px rgba(255, 0, 0, 0.75); }
+            100%{box-shadow: 7px 7px 12px 0px rgba(255, 0, 0, 0.75); }
         }
       &:hover{
         transform: scale(1.15); 
