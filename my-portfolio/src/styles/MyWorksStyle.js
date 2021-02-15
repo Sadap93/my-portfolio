@@ -104,6 +104,7 @@ transition: 0.5s;
             100%{box-shadow: 7px 7px 12px 0px rgba(255, 0, 0, 0.75); }
         }
       &:hover{
+        transform: scale(1.15);
       }
         svg{
             filter:drop-shadow(2px 2px 2px rgba(100, 100, 100, 1));
