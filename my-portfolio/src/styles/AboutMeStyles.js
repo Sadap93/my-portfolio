@@ -174,10 +174,12 @@ export const ContainerAboutMe = styled.div`
         justify-content: space-around;
         text-align: center;
         background-color: rgba(93, 149, 223, 0.5);
-    
         border-radius: 15px;
         padding: 25px;
         height: 500px;
+        h3{
+                font-size: 2rem;
+            }
         .intro-wrapper{
             padding: 30px;
             background-color: rgba(33, 33, 33, 0.7);
@@ -201,6 +203,9 @@ export const ContainerAboutMe = styled.div`
         }
         @media (max-width: 760px){
             height: 400px;
+            h3{
+                font-size: 2rem;
+            }
             .intro-wrapper{
                 padding: 20px;
                 line-height: 1.4rem;
@@ -222,6 +227,9 @@ export const ContainerAboutMe = styled.div`
             h1{
                 font-size:1.6rem;
                 line-height: 2rem;
+            }
+            h3{
+                font-size: 1.5rem;
             }
             p{
                 font-size: 0.8rem;

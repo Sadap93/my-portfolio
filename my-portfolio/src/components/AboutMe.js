@@ -62,7 +62,7 @@ const AboutMe = ({ satelliteStatusAboutMe, setSatelliteStatusAboutMe, isPlaying 
                                     animate={{ opacity: 1 }}
                                     exit={{ opacity: 0 }}>
                                     <div className="intro-wrapper">
-                                        <h1>Introduction</h1>
+                                        <h1>introduction</h1>
                                         <p>
                                             My first meet with programming was in a university course.
                                             We made some geographic projects and demographic maps.
