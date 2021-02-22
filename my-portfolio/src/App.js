@@ -59,7 +59,7 @@ function App() {
         satelliteStatusContact={satelliteStatusContact}
         setSatelliteStatusContact={setSatelliteStatusContact}
         isPlaying={isPlaying}
-      /> 
+      />
 
       <Footer />
     </div>
